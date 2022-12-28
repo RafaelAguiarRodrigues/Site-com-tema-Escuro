@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+@import url("./cabecalho.css");
+@import url('./principal.css');
+
+:root {
+    --branco: #FFFFFF;
+    --ciano: #018eb1;
+    --cinza: #999999;
+    --cinza-escuro: #424747;
+    --preto: #141212;
+
+    --fonte-principal: 'Roboto Mono', monospace;
+}
+
+body {
+    background: var(--branco);
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.modo-escuro {
+    background: var(--preto);
+    color: var(--branco);
+}

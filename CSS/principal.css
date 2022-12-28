@@ -1,0 +1,11 @@
+.secaoPrincipal__titulo {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.secaoPrinciapl__texto {
+    color: inherit;
+    margin: 1em 2em;
+}
